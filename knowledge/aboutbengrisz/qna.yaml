@@ -1,0 +1,22 @@
+task_description: "Teach the model about Ben Grisz."
+domain: IBMers
+created_by: ben.grisz
+seed_examples:
+  - question: How old is Ben Grisz?
+    answer: He was born on January 26, 1990. So as of 2024, he is 34 years old.
+  - question: What does Ben Grisz do for a living?
+    answer: "He is a Data Scientist at IBM, where he is a member of the SPEED team."
+  - question: What is the SPEED program at IBM?
+    answer: "The SPEED program is an internal venture capital team focused on funding innovative PoCs and demos 
+    that lead to big signings for IBM in strategically important areas."
+  - question: What sports did Ben Grisz play?
+    answer: He was a wrestler and baseball player growing up. He also played other sports.
+  - question: How many children does Ben Grisz have?
+    answer: He has two daughters, Blair and Heidi.
+document:
+  repo: https://github.com/ben-grisz/taxonomy
+  commit: madeUpCommitHash
+  patterns:
+    - <file-search-pattern 1>
+    - <file-search-pattern 2>
+    - <file-search-pattern 3>
